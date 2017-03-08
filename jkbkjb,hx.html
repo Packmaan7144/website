@@ -1,0 +1,37 @@
+<html onload="ScreenWidth()">
+
+<head>
+  <script >
+    function ScreenWidth() {
+
+
+      var width = window.innerWidth;
+      var size = (width / 2) - 30;
+      document.getElementById("center").style.marginLeft = size;
+      document.getElementById("demo").innerHTML = width;
+
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script>
+  </script>
+</head>
+
+
+<body onresize="ScreenWidth()">
+
+
+  <ul>
+    <li style="float: left">Shop</li>
+    <div class="logo">
+      <li id="center"><img onload="ScreenWidth()" src='logo.png' height="17" width="60"></li>
+    </div>
+
+    <li style="float: right">About us</li>
+
+
+  </ul>
+</body>
+Size<span id="demo"></span>
+
+</html>
