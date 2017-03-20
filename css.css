@@ -106,3 +106,23 @@ margin-top: auto;
 height: 400px;
   border: 6px solid white;
 }
+#namep{
+  padding-top: 30px;
+  color: white;
+  text-decoration: underline;
+
+}
+#imgproduct{
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+#price{
+  color: black;
+  font-size: 22;
+}
+#cart{
+  border-top: 17px;
+}
+#cart:hover {
+cursor: pointer;
+}
