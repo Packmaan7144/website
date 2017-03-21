@@ -97,14 +97,10 @@ margin-top: auto;
    padding: 1px;
 }
 
-#item1 {
-  width: 170;
 
-  border: 6px solid white;
-}
 #item {
 height: 400px;
-  border: 6px solid white;
+
 }
 #namep{
   padding-top: 30px;
@@ -125,4 +121,19 @@ height: 400px;
 }
 #cart:hover {
 cursor: pointer;
+}
+#content{
+font-size: 19px;
+color: white;
+}
+#aboutques{
+  text-decoration: underline;
+
+}
+#thanks{
+  color: white;
+  font-size: 19px;
+}
+#mail{
+  text-decoration: none;
 }
